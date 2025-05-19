@@ -127,7 +127,7 @@ const Navbar: React.FC<NavbarProps> = ({
                       </AlertDialogDescription>
                     </AlertDialogHeader>
                     <AlertDialogFooter className="flex justify-center gap-4 mt-4">
-                      <AlertDialogCancel className="bg-red-600 text-black px-4 py-2 rounded-md font-medium shadow-md border border-red-600 hover:bg-gray-500 hover:text-red-600 transition-colors duration-300">
+                      <AlertDialogCancel className=" px-4 py-2 rounded-md font-medium bg-gray-200 text-gray-800 hover:bg-gray-800 hover:text-gray-200  transition-colors duration-300">
                         Cancel
                       </AlertDialogCancel>
                       <AlertDialogAction

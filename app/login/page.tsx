@@ -42,7 +42,7 @@ export default function Login() {
 
   return (
     <div className="flex flex-col gap-6 min-h-screen items-center justify-center px-4 bg-[url('https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?w=800&dpr=2&q=80')] bg-cover bg-center">
-      <Card className="w-full max-w-md">
+      <Card className="w-full max-w-md bg-transparent">
         <CardContent className="p-6 md:p-8">
           <form onSubmit={handleLogin} className="flex flex-col gap-6">
             <div className="flex flex-col items-center text-center">
